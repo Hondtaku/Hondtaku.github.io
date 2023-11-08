@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="assets/aot-icon.png">
+        <title>Arnold Dolmo's Portfolio</title>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    </head>
+
+    <body>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-primary bg-dark">
+            <a class="navbar-brand" href="landing.html"> <img src="assets/digi.png" width="30" height="30" class="d-inline-block align-top" alt=""> Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="projects.html"> Projects</a>
+                <a class="nav-item nav-link" href="contact.html"> <img src="assets/one-piece-icon.png" width="30" height="30" class="d-inline-block align-top" alt=""> Contact</a>
+                <a class="nav-item nav-link" href="about.html">About</a>
+                <a class="nav-item nav-link" href="blog.html">Blog</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <img class="position-absolute w-100 h-100 bg-img" src="assets/contact-bg.png ">
+
+        <div class="position-relative text-light">
+            <h1 class="display-2 text-right" >
+                <i class="bi bi-envelope-at"> Contact Meh</i>
+            </h1>
+            <h2>
+                <p> Feel free to message me with any questions, comments, or complaints</p>
+            </h2>
+            <hr>
+            <form class=" text-center mt-3 h4">
+                <div> 
+                    <div class="form-group mb-3">
+                        <input type="text" id="first" placeholder="First name">
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="text" id="last" placeholder="Last name">
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="text" id="email" placeholder="Your email"> 
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="text" id="subject" placeholder="Message subject">
+                    </div>
+                    <div class="form-group mb-3">
+                        <textarea rows="5" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div>
+                        <button class="bg-dark text-primary btn-outline-primary" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script src="scripts/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
